@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form-container {
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+
+    .form-container input {
+        margin-bottom: 10px;
+    }
+
+    .game-container {
+        /* display: none; */
+    }
+
+    .game-board {
+        display: grid;
+        grid-template-columns: repeat(3, 20vh);
+        grid-template-rows: repeat(3, 20vh);
+        border: 1px solid black;
+        background-color: #F7C0CB;
+    }
+
+    .box {
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
